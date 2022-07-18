@@ -1,0 +1,24 @@
+
+.post-create{
+    width: 80%;
+    display: flex;
+    
+    border: 1px solid var(--secondary-grey);
+   
+}
+
+.post-create-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.post-create-input{
+
+    width: 100%;
+}
+
+.font-bold{
+    font-weight: bolder;
+}

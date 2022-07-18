@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import {Profile, Login} from './ComponentImporter'
+import {Profile, Login, Feed} from './ComponentImporter'
 
 
 function App() {
@@ -8,9 +8,10 @@ function App() {
   return (
     <div className="App">
       <Routes>
-          <Route path='/' element={<Profile />} />
+          <Route path='/' element={<Feed />} />
+          <Route path='/profile' element={<Profile />} />
           <Route path='/login' element={<Login />} />
-          {/* <Route path='/feed' element={<Feed />} /> */}
+          
       </Routes>
     </div>
   );

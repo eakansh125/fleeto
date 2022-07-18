@@ -3,6 +3,7 @@ import './Profile.css'
 import Navbar from '../Resuables/Navbar';
 import Post from './Post';
 import ChipFollow from './ChipFollow';
+import { Link } from 'react-router-dom';
 
 function Profile() {
   return (
@@ -12,12 +13,12 @@ function Profile() {
     <div className='profile-content'>
       <div className='profile-content-sidebar'>
         <div className='profile-content-sidebar-item'>
-          <button className='btn-text width-l margin-tb-s font-m br-m'>Home</button>
-          <button className='btn-text width-l margin-tb-s font-m br-m'>Explore</button>
-          <button className='btn-text width-l margin-tb-s font-m br-m'>Bookmarks</button>
-          <button className='btn-text width-l margin-tb-s font-m br-m'>Notifications</button>
-          <button className='btn-text width-l margin-t-0 font-m br-m'>Profile</button>
-          <button class="btn-small width-xxl margin-tb font-s padding-m br-m">Create a post</button>
+          <Link to="/" href='Feed.js' className='btn-text width-l margin-tb-s font-m br-m font-bold'>Home</Link>
+          <Link to="" className='btn-text width-l margin-tb-s font-m br-m'>Explore</Link>
+          <Link to="" className='btn-text width-l margin-tb-s font-m br-m'>Bookmarks</Link>
+          <Link to="" className='btn-text width-l margin-tb-s font-m br-m'>Notifications</Link>
+          <Link to="/profile" className='btn-text width-l margin-t-0 font-m br-m'>Profile</Link>
+          <Link to="" class="btn-small width-xxl margin-tb font-s padding-m br-m">Create a post</Link>
         </div>
         
       </div>
