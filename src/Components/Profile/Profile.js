@@ -15,7 +15,7 @@ function Profile() {
         <div className='profile-content-sidebar-item'>
           <Link to="/" href='Feed.js' className='btn-text width-l margin-tb-s font-m br-m font-bold'>Home</Link>
           <Link to="" className='btn-text width-l margin-tb-s font-m br-m'>Explore</Link>
-          <Link to="" className='btn-text width-l margin-tb-s font-m br-m'>Bookmarks</Link>
+          <Link to="/bookmark" className='btn-text width-l margin-tb-s font-m br-m'>Bookmarks</Link>
           <Link to="" className='btn-text width-l margin-tb-s font-m br-m'>Notifications</Link>
           <Link to="/profile" className='btn-text width-l margin-t-0 font-m br-m'>Profile</Link>
           <Link to="" class="btn-small width-xxl margin-tb font-s padding-m br-m">Create a post</Link>
