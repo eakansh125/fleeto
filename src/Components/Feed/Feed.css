@@ -2,9 +2,8 @@
 .post-create{
     width: 80%;
     display: flex;
-    
     border: 1px solid var(--secondary-grey);
-   
+    /* box-shadow: 1px 1px 10px 1px var(--secondary-grey); */
 }
 
 .post-create-btn{
