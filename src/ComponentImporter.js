@@ -4,6 +4,7 @@ import Login from "./Components/Authentication/Login";
 import Signup from "./Components/Authentication/Signup";
 import Feed from "./Components/Feed/Feed";
 import Bookmark from "./Components/Bookmark/Bookmark";
+import Notification from "./Components/Notification/Notification";
 
 // import ChipFollow from "./Components/Resuables/ChipFollow";
 // import Navbar from "./Components/Resuables/Navbar";
@@ -11,4 +12,4 @@ import Bookmark from "./Components/Bookmark/Bookmark";
 // import SidebarLeft from "./Components/Resuables/SidebarLeft";
 // import SidebarRight from "./Components/Resuables/SidebarRight";
 
-export {Profile, Login, Signup, Feed, Bookmark}
+export {Profile, Login, Signup, Feed, Bookmark, Notification}
